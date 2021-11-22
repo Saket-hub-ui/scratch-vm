@@ -26,6 +26,8 @@ class Scratch3MotionBlocks {
             motion_pointtowards: this.pointTowards,
             motion_glidesecstoxy: this.glide,
             motion_glideto: this.glideTo,
+            motion_glideto: this.glideToX,
+            motion_glideto: this.glideToY,
             motion_ifonedgebounce: this.ifOnEdgeBounce,
             motion_setrotationstyle: this.setRotationStyle,
             motion_changexby: this.changeX,
