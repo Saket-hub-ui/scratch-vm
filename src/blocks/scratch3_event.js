@@ -24,15 +24,18 @@ class Scratch3EventBlocks {
      */
     getPrimitives () {
         return {
-            event_whentouchingobject: this.touchingObject,
-            event_broadcast: this.broadcast,
-            event_broadcastandwait: this.broadcastAndWait,
-            event_whengreaterthan: this.hatGreaterThanPredicate
+            
         };
     }
 
     getHats () {
         return {
+            event_whentouchingobject: this.touchingObject,
+           
+            event_broadcast: this.broadcast,
+            event_broadcastandwait: this.broadcastAndWait,
+            event_whengreaterthan: this.hatGreaterThanPredicate
+            
             event_whenflagclicked: {
                 restartExistingThreads: true
             },
