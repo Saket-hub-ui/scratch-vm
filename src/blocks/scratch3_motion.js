@@ -26,6 +26,8 @@ class Scratch3MotionBlocks {
             motion_pointtowards: this.pointTowards,
             motion_glidesecstoxy: this.glide,
             motion_glideto: this.glideTo,
+            motion_glideto: this.glideToX,
+            motion_glideto: this.glideToY,
             motion_ifonedgebounce: this.ifOnEdgeBounce,
             motion_setrotationstyle: this.setRotationStyle,
             motion_changexby: this.changeX,
@@ -35,7 +37,6 @@ class Scratch3MotionBlocks {
             motion_xposition: this.getX,
             motion_yposition: this.getY,
             motion_direction: this.getDirection,
-            // Legacy no-op blocks:
             motion_scroll_right: () => {},
             motion_scroll_up: () => {},
             motion_align_scene: () => {},
